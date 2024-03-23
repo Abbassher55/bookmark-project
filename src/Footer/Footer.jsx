@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:justify-between md:gap-3">
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-12">
             <div className="logo">
-              <a href="#">
+              <a href="/">
                 <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
                     <path
@@ -32,7 +32,9 @@ export default function Footer() {
                 <li className="hover:cursor-pointer hover:text-secondary">
                   <a href="#pricing">pricing</a>
                 </li>
-                <li className="hover:cursor-pointer hover:text-secondary">contact</li>
+                <li className="hover:cursor-pointer hover:text-secondary">
+                  <a href="#contact">contact</a>
+                </li>
               </ul>
             </div>
           </div>

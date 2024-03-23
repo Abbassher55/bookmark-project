@@ -10,6 +10,3 @@
   }
 }
 
-.extensions-cards:nth-child(n) {
-  margin-top: calc(50px * (n - 1)); /* For all cards */
-}

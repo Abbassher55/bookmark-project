@@ -8,10 +8,10 @@ export default function Navbar() {
 
   return (
     <header className="container">
-      <nav className="flex flex-col justify-between gap-3 bg-custom-dark pt-5 md:flex-row md:bg-transparent md:pb-0">
+      <nav className="flex flex-col justify-between gap-3 bg-custom-dark pt-5 md:flex-row md:bg-transparent md:pb-0 md:pt-12">
         <div className="flex items-center justify-between px-5 pb-5 md:pb-1">
           {/* Website logo */}
-          <a href="#">
+          <a href="/">
             <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fillRule="evenodd">
                 <path
@@ -49,9 +49,11 @@ export default function Navbar() {
             <li className="hover:cursor-pointer hover:text-secondary">
               <a href="#pricing">pricing</a>
             </li>
-            <li className="hover:cursor-pointer hover:text-secondary">contact</li>
+            <li className="hover:cursor-pointer hover:text-secondary">
+              <a href="#contact">contact</a>
+            </li>
             <li className="last:border-b-0 hover:cursor-pointer hover:text-secondary">
-              <a className="mx-8 block cursor-pointer rounded-md border-2 border-white bg-transparent px-8 py-3 text-white hover:shadow-xl md:rounded-md md:border-transparent md:bg-secondary md:hover:border-secondary md:hover:bg-transparent md:hover:text-secondary"> login</a>
+              <a href="#login" className="mx-8 block cursor-pointer rounded-md border-2 border-white bg-transparent px-8 py-3 text-white hover:shadow-xl md:rounded-md md:border-transparent md:bg-secondary md:hover:border-secondary md:hover:bg-transparent md:hover:text-secondary"> login</a>
             </li>
           </ul>
         </div>
