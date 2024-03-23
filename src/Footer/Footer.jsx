@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:justify-between md:gap-3">
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-12">
             <div className="logo">
-              <a href="/">
+              <a href="/bookmark-project">
                 <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
                     <path
