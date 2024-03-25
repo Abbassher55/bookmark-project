@@ -13,7 +13,7 @@ export default function Extensions() {
         </div>
       </div>
       <div className="grid w-full gap-5 md:grid-cols-3">
-        <div className="flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
+        <div className="feature-card flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
           <img src={chrome} alt="chrome image" />
           <div className="description">
             <h2 className="text-center text-lg font-medium">Add to Chrome</h2>
@@ -22,7 +22,7 @@ export default function Extensions() {
           <img src={dots} className="w-full" alt="background dots image" />
           <button className="block rounded-md border-2 border-primary bg-primary px-4 py-2 font-medium text-white shadow-lg hover:bg-white hover:text-primary max-sm:mx-auto md:px-9 md:py-3">Add & Install Extension</button>
         </div>
-        <div className="flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
+        <div className="feature-card flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
           <img src={firefox} alt="firefox image" />
           <div className="description">
             <h2 className="text-center text-lg font-medium">Add to Chrome</h2>
@@ -31,7 +31,7 @@ export default function Extensions() {
           <img src={dots} className="w-full" alt="background dots image" />
           <button className="block rounded-md border-2 border-primary bg-primary px-4 py-2 font-medium text-white shadow-lg hover:bg-white hover:text-primary max-sm:mx-auto md:px-9 md:py-3">Add & Install Extension</button>
         </div>
-        <div className="flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
+        <div className="feature-card flex flex-col items-center justify-center space-y-8 rounded-xl p-2 py-7 shadow-lg">
           <img src={opera} alt="opera image" />
           <div className="description">
             <h2 className="text-center text-lg font-medium">Add to Chrome</h2>

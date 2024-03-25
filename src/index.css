@@ -9,4 +9,11 @@
     @apply font-rubik;
   }
 }
-
+@media (min-width:768px){
+  .feature-card:nth-child(3n-1) {
+    transform: translateY(4rem);
+  }
+  .feature-card:nth-child(4n-1) {
+    transform: translateY(8rem);
+  }
+}
