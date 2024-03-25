@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="flex flex-col justify-between gap-3 bg-custom-dark pt-5 md:flex-row md:bg-transparent md:pb-0 md:pt-12">
         <div className="flex items-center justify-between px-5 pb-5 md:pb-1">
           {/* Website logo */}
-          <a href="#project">
+          <a href="/#project">
             <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fillRule="evenodd">
                 <path
